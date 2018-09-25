@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.menu-header {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	z-index: 1;
+}
+
+.main-nav-list {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.menu {
+	padding: 30px;
+	font-size: 20px;
+	color: darkgray;
+	text-decoration: none;
+	display: flex;
+	align-items: flex-start;
+}
+
+.menu:hover {
+	color: #8FBC8F;
+}
+
+.logo {
+	align-self: center;
+}
+
+
+.h1-splash {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 70px;
+	align-items: center;
+	margin: 50px;
+}
+
+.main-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.h1-main {
+	width: 270px;
+	height: 210px;
+	text-align: center;
+}
+
+.h1-services {
+	font-size: 20px;
+}
+
+.top-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: 30px 20px;
+}
+
+.features {
+	width: 40%;
+}
+
+.about {
+	width: 40%;
+}
+
+.middle-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.services-header-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.bottom-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: 30px 20px;
+}
+
+.services {
+	width: 25%;
+}
+
+.product {
+	width: 25%;
+}
+
+.vision {
+	width: 25%;
+}
+
+.contact {
+	margin: 20px;
+}
+
+footer {
+	text-align: center;
+}
