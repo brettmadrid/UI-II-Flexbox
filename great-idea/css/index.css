@@ -129,6 +129,10 @@ hr {
 	font-size: 20px;
 }
 
+.h1-vision {
+	font-size: 20px;
+}
+
 .top-content {
 	display: flex;
 	width: 100%;
@@ -276,6 +280,77 @@ footer {
 }
 
 .some-facts-ul {
+	margin: 15px 15px;
+	list-style-type: disc;
+}
+
+.vision-header-img {
+	width: 85%;
+	margin: 5px 0px 5px 90px;
+}
+
+.vision-header {
+	margin: 25px 50px 25px 90px;
+}
+
+.vision-blocks {
+	display: flex;
+	width: 90%;
+	margin: 25px auto;
+	flex-flow: wrap;
+}
+
+.content-block {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 50px;
+	margin: 50px;
+}
+
+.content-header {
+	align-items: center;
+}
+
+.content-header h2 {
+	text-align: center;
+}
+
+.design-img {
+	align-self: flex-end;
+}
+
+.development-img {
+	align-self: flex-start;
+}
+
+.creativity-img {
+	align-self: flex-end;
+}
+
+.strategy-img {
+	align-self: flex-start;
+}
+
+.laptop-img {
+	width: 40%;
+	height: 40%;
+}
+
+.vision-facts-container {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	margin: 30px 0px 70px 70px;
+}
+
+.vision-facts {
+	width: 400px;
+	font-size: 18px;
+}
+
+.vision-facts-ul {
 	margin: 15px 15px;
 	list-style-type: disc;
 }
